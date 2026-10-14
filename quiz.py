@@ -400,7 +400,7 @@ print("==========================")
 
 # save the players score
 with open("leaderboard.csv", "a") as file:
-    file.write(f"{name}, {selected_category}, {score}\n")
+    file.write(f"{name}, {score}, {len(quiz_questions)}\n")
 
 print("Score saved successfully!")
 
